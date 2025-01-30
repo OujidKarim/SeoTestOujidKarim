@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Déclaration d'accessibilité du site Tech'n'Tips by La Manu." />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style2.css" />
+    <title>Accessibilité - Tech'n'Tips by La Manu</title>
+  </head>
+  <body id="accessibilite">
+    <header role="banner">
+        <h1>Tech'n'Tips by La Manu</h1>
+        <nav role="navigation" aria-label="Menu principal">
+          <div class="menu-toggle" aria-label="Ouvrir le menu">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html#tutoriels">Tutoriels</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="accessibilite.html" aria-current="page">Accessibilité</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+    <main role="main">
+      <section class="accessibilite-content" aria-labelledby="accessibilite-title">
+        <h2 id="accessibilite-title">Déclaration d'accessibilité</h2>
+        <p>
+          Tech'n'Tips by La Manu s'engage à rendre son site web accessible conformément à l'article 47 de la loi n° 2005-102 du 11 février 2005.
+        </p>
+        <p>
+          Cette déclaration d'accessibilité s'applique au site <strong>Tech'n'Tips by La Manu</strong>.
+        </p>
+
+        <h3>État de conformité</h3>
+        <p>
+          Le site <strong>Tech'n'Tips by La Manu</strong> est en conformité partielle avec le référentiel général d'amélioration de l'accessibilité (RGAA), version 4.1. Le site a été audité pour s'assurer qu'il respecte les normes d'accessibilité.
+        </p>
+
+        <h3>Résultats des tests</h3>
+        <p>
+          L'audit de conformité réalisé le <strong>05/12/2022</strong> révèle que <strong>95%</strong> des critères RGAA sont respectés. Les non-conformités restantes sont en cours de correction.
+        </p>
+
+        <h3>Améliorations apportées</h3>
+        <ul>
+          <li>Utilisation de balises sémantiques HTML5 pour une meilleure structure.</li>
+          <li>Ajout d'attributs ARIA pour améliorer la navigation au clavier et l'utilisation des lecteurs d'écran.</li>
+          <li>Contrastes de couleurs vérifiés et ajustés pour respecter les normes WCAG 2.1.</li>
+          <li>Alternatives textuelles fournies pour toutes les images.</li>
+          <li>Formulaires accessibles avec des labels associés à chaque champ.</li>
+        </ul>
+
+        <h3>Défis d'accessibilité</h3>
+        <p>
+          Certains éléments interactifs, comme les vidéos ou les animations complexes, peuvent encore poser des problèmes d'accessibilité. Nous travaillons activement à les rendre plus accessibles.
+        </p>
+
+        <h3>Feedback et contact</h3>
+        <p>
+          Si vous rencontrez des difficultés pour accéder à un contenu ou à un service, vous pouvez nous contacter pour signaler un problème d'accessibilité :
+        </p>
+        <ul>
+          <li>Par email : <a href="mailto:accessibilite@techntips-lamanu.fr">accessibilite@techntips-lamanu.fr</a></li>
+          <li>Par téléphone : <a href="tel:+33123456789">01 23 45 67 89</a></li>
+        </ul>
+
+        <h3>Voies de recours</h3>
+        <p>
+          Si vous constatez un défaut d'accessibilité qui vous empêche d'accéder à un contenu ou à un service, vous pouvez :
+        </p>
+        <ul>
+          <li>Nous contacter directement via les coordonnées ci-dessus.</li>
+          <li>Faire un signalement au Défenseur des droits : <a href="https://www.defenseurdesdroits.fr/" target="_blank">https://www.defenseurdesdroits.fr/</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer role="contentinfo">
+      <div class="footer-content">
+        <div class="footer-left">
+          <img src="./assets/img/logo-la-manu.png" alt="Logo La Manu" />
+          <h3>Menu :</h3>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html#tutoriels">Tutoriels</a></li>
+            <li><a href="accessibilite.html">Accessibilité</a></li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <h3>Contact :</h3>
+          <form action="" id="contact-form" role="form">
+            <div class="form-group">
+              <div class="form-control">
+                <label for="email">Email :</label>
+                <input type="email" id="email" placeholder="Votre Email" />
+              </div>
+              <div class="form-control">
+                <label for="subject">Objet :</label>
+                <input type="text" id="subject" placeholder="Votre objet" />
+              </div>
+            </div>
+            <div class="form-group form-control">
+              <label for="message">Message :</label>
+              <textarea name="message" id="message" placeholder="Message ..."></textarea>
+            </div>
+            <div class="form-full-width">
+              <input type="radio" id="accept-terms" required />
+              <label for="accept-terms">J'accepte les conditions d'utilisation</label>
+            </div>
+            <button type="submit" class="pink-btn">Envoyer</button>
+          </form>
+        </div>
+      </div>
+      <small>Copyright - La Manu 2024</small>
+    </footer>
+    <!-- Scripts -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

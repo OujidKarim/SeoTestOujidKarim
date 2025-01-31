@@ -1,0 +1,12 @@
+- Mise en place d'une structure HTML5 pour les balises header, main, nav, footer, article, section, aside, etc.
+- Ajout de roles ARIA pour am liorer l'accessibilit  pour les lecteurs d' cran.
+- Ajout d'attributs alt sur les images pour les rendre accessibles.
+- Mise en place de liens vers les pages du site pour am liorer la navigation.
+- Ajout d'un menu de navigation principal avec des liens vers les diff rents  l ments du site.
+- Mise en place d'un pied de page contenant des liens vers les pages du site et des informations de contact.
+- Ajout de mots-cl s sur les pages du site pour am liorer la recherche.
+- Mise en place de titres de niveau 1 sur les pages du site pour am liorer la hi rarchie des titres.
+- Ajout d'un contraste de couleur entre le texte et le fond pour am liorer la lisibilit .
+- Mise en place d'un focus sur les liens pour am liorer la navigation au clavier.
+- Ajout d'un attribut lang sur les balises html pour indiquer la langue du site.
+
